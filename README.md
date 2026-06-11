@@ -21,6 +21,6 @@ Figma
 HTML5
 CSS3
 JavaScript
-Resultado
 
+# Resultado
 A landing page foi projetada para fortalecer a presença da Aurora no mercado B2B, comunicar sua proposta de valor de forma objetiva e gerar oportunidades de negócio através da captação de novos contatos.
