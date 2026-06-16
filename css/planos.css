@@ -1,0 +1,10 @@
+#plans-section{
+    display: flex;
+    flex-direction: column;
+    background-color: hotpink;
+    width: 85%;
+}
+#plans-section-info{
+    display: flex;
+    flex-direction: row;
+}
