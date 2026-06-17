@@ -3,8 +3,102 @@
     flex-direction: column;
     background-color: hotpink;
     width: 85%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 #plans-section-info{
     display: flex;
     flex-direction: row;
+    gap: 3%;
+}
+.plans-section-card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 450px;
+    background: linear-gradient(180deg,rgba(241, 241, 248, 1) 0%, rgba(255, 255, 255, 1) 98%);
+    border-radius: 30px;
+    padding-top: 3%;
+    padding-left: 2%;
+    gap: 5%;
+}
+.plans-section-card-itens{
+    width: 40%;
+    height: 300px;
+    border-right:2px solid #78aabc;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.plans-section-division{
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+    align-items: center;
+}
+.bi-check2{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.plans-section-card-prices{
+    display: flex;
+    flex-direction: row;
+    background-color: #78aabc;
+    width: 50%;
+    height: 60%;
+    gap: 5%;
+}
+.plans-section-card-prices-num{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.plans-section-box-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    background-color: crimson;
+    border-radius: 30px;
+}
+.plans-section-card-valor-colab{
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.plans-section-card-mensal-anual{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+.plans-section-card-mensal{
+    display: flex;
+    flex-direction: column;
+    gap:20%;
+}
+.plans-section-btn-saiba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    flex-direction: row;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #78aabc;
+    align-self: center;
+}
+#plans-section-btn-saiba-rosa{
+    background: none;
+    color: #78aabc;
+}
+#plans-section-btn-saiba-roxo{
+    background: none;
+    color: blueviolet;
 }
