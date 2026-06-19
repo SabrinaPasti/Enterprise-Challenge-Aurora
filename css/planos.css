@@ -36,9 +36,9 @@
     display: flex;
     flex-direction: column;
     width: 600px;
-    background: linear-gradient(180deg,rgba(241, 241, 248, 1) 0%, rgba(255, 255, 255, 1) 98%);
+    background: linear-gradient(180deg,rgba(241, 241, 248, 1) 15%, rgba(255, 255, 255, 1) 98%);
     border-radius: 30px;
-    padding-top: 5%;
+    padding-top: 7%;
     gap: 30px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -52,13 +52,15 @@
     align-items: center;
 }
 .title-plans{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .bi-gem{
     font-size: 0.8rem;
 }
 .topics-plans-title{
     font-size: 1.1rem;
+    color: #212529;
+    opacity: 75%;
 }
 .topics-plans{
     display: flex;
@@ -86,23 +88,23 @@
     justify-self: center;
 }
 #line-division-rosa{
-    background-color: #01090c;
+    background-color: #A91079;
 }
 #line-division-roxo{
     height: 210px;
-    background-color: #78aabc;
+    background-color: #8602BA;
 }
 .plans-section-card-prices{
     display: flex;
     flex-direction: column;
     width: 45%;
     gap: 12px;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 .plans-section-topics-prices{
     display: flex;
     flex-direction: row;
-    gap: 8%;
+    gap: 10%;
     width: 100%;
 }
 .plans-section-divsion-cards{
@@ -110,8 +112,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.topics-plans-mensal-anual{
+    font-size: 0.8rem;
+    color: #212529;
+    opacity: 75%;
+}
+.plano-rosa{
+    color: #A91079;
+}
+.plano-roxo{
+    color: #8602BA;
+}
 .topics-num-prices{
     font-size: 0.7rem;
+    align-self: flex-end;
 }
 .plans-section-cards-colab{
     display: flex;
@@ -125,8 +139,13 @@
     width: 100px;
     height: 20px;
     border-radius: 30px;
-    background-color: coral;
     font-size: 1.1rem;
+}
+.fundo-rosa{
+    background-color: #F0DEED;
+}
+.fundo-roxo{
+    background-color: #D4CDDE;
 }
 .plans-section-card-prices-num{
     display: flex;
@@ -146,11 +165,9 @@
     align-self: center;
     font-size: 1.4rem;
 }
-#plans-section-btn-saiba-rosa{
-    background: none;
-    color: #78aabc;
+#border-rosa{
+    border-color: #A91079;
 }
-#plans-section-btn-saiba-roxo{
-    background: none;
-    color: blueviolet;
+#border-roxo{
+    border-color: #8602BA;
 }

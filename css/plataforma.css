@@ -211,7 +211,7 @@ body {
 #agendar-btn-first-section, #agendar-btn-third-section{
     width: 300px;
 }
-.bi-plus-lg{
+.btn-agendar-plus{
     background-color: #E79BF6;
     width: 30px;
     height: 30px;
