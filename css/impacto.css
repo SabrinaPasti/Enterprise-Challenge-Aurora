@@ -1,0 +1,289 @@
+.impacto {
+    width: 100%;
+    background-color: #010728;
+    background-image: url('../img/bkg-impacto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 152px 0 162px 0;
+}
+
+.impacto .text {
+    max-width: 1065px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.impacto .text span {
+    text-transform: uppercase;
+    font-family: 'Nunito sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2%;
+    color: #ffffff;
+    padding: 8.5px 29px;
+    border: 1px solid #FFF;
+    border-radius: 75px;
+
+}
+
+
+.impacto .text h2 {
+    color: #ffffff;
+}
+
+.impacto .text h2 span {
+    color: #A49FE0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 48px;
+    line-height: 110%;
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    padding: 0;
+}
+
+.impacto .text p {
+    color: #ffffff;
+    margin: 15px 0 29px 0;
+    max-width: 624px;
+
+}
+
+.impacto .text p b {
+    font-weight: 600;
+}
+
+.impacto .text .right {
+    max-width: 664px;
+}
+
+.impacto .bullet-text {
+    background-color: #8602BA;
+    border-radius: 76px;
+    padding: 8.5px 29px;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+.impacto .bullet-text p {
+    text-transform: uppercase;
+    font-family: 'Nunito sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2%;
+    margin: 0;
+}
+
+.impacto .depoimentos {
+    margin: 185px 0 162px 0;
+}
+
+.impacto .depoimentos .text {
+    display: block;
+    max-width: 844px;
+    margin-bottom: 84px;
+}
+
+.impacto .depoimentos .text h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 32px;
+    line-height: 124%;
+    letter-spacing: 1%;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.impacto .depoimentos .text h3 span {
+    color: #A49FE0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    padding: 0;
+}
+
+.impacto .depoimentos .text p {
+    margin: 0;
+    max-width: max-content;
+}
+
+.impacto .depoimentos .carrossel {}
+
+.card-carrossel {
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    padding: 16px;
+    height: 350px;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-carrossel .empresa {
+    display: flex;
+    align-items: center;
+    background-color: #ffffffaa;
+    padding: 4px 7px 4px 4px;
+    border-radius: 96px;
+    gap: 0 8px;
+    width: fit-content;
+}
+
+.card-carrossel .empresa p {
+    font-size: 12px;
+}
+
+.card-carrossel .depoimento {
+    background-color: #F1F1F8;
+    border-radius: 12px;
+    padding: 9px 14px 12px 14px;
+}
+
+.card-carrossel .depoimento h4 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    color: #000;
+    line-height: 151%;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.card-carrossel .depoimento i {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 151%;
+    color: #000;
+    font-weight: 300;
+}
+
+.card-carrossel .depoimento i b {
+    font-weight: 600;
+}
+
+.c1 {
+    background-image: url('../img/depoimento1.png');
+}
+
+.c2 {
+    background-image: url('../img/depoimento2.png');
+}
+
+.c3 {
+    background-image: url('../img/depoimento3.png');
+}
+
+.c4 {
+    background-image: url('../img/depoimento4.png');
+}
+
+.c5 {
+    background-image: url('../img/depoimento5.png');
+}
+
+.splide__pagination {
+    bottom: -50px;
+}
+
+.carrossel .splide__pagination__page {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    opacity: .5;
+}
+
+.carrossel ul.splide__pagination.splide__pagination--ltr {
+    background-color: #8602BA;
+    padding: 16px 24px;
+    border-radius: 96px;
+    width: fit-content;
+    margin: -98px auto;
+}
+
+
+
+.splide__pagination li:not(:last-child) .splide__pagination__page {
+    margin-right: 16px;
+}
+
+.carrossel .splide__pagination__page.is-active {
+    width: 28px;
+    border-radius: 999px;
+    transform: none;
+    background: #fff;
+    opacity: 1;
+}
+
+.carrossel .splide__arrow {
+    background: #8602BA;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.carrossel .splide__arrow svg {
+    fill: white;
+}
+
+.carrossel .splide__arrow--prev {
+    left: 42em;
+    position: absolute;
+    top: 31em;
+    outline: none;
+}
+
+.carrossel .splide__arrow--next {
+    left: 46em;
+    position: absolute;
+    top: 31em;
+    outline: none;
+}
+
+.carrossel .splide__pagination {
+    left: unset;
+    right: 38em;
+    display: flex !important;
+}
+
+@media (max-width: 1440px) {
+    .carrossel .splide__pagination {
+        right: 18em;
+    }
+
+    .carrossel .splide__arrow--next {
+        left: 26em;
+    }
+
+    .carrossel .splide__arrow--prev {
+        left: 30em;
+    }
+
+
+}
+
+.carrossel .splide__arrows.splide__arrows--ltr {
+    position: relative;
+}
+
+.splide {
+    overflow: visible;
+}
+
+.splide__track {
+    overflow: visible;
+}
+
+.card-carrossel {
+    filter: grayscale(100%);
+    transition: .4s;
+}
+
+.carrossel .splide__slide.is-active .card-carrossel {
+    filter: grayscale(0%);
+}

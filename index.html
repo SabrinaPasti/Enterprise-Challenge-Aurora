@@ -4,11 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/usx8zfw.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -19,16 +14,178 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/rh-service.css">
+    <link rel="stylesheet" href="css/impacto.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
+
 
     <title>Aurora</title>
 </head>
 
 <body>
     <header>
+        <div class="container">
+            <img src="/img/logo-header.png" alt="logo aurora">
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#plataforma">A Plataforma</a>
+                <a href="#impacto">Impacto</a>
+                <a href="#planos">Planos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
     <div class="main-content" id="mainContent">
+        <section class="aurora" id="#inicio">
+            <div class="container">
+                <h2>Lorem ipsum dolor consectetur adipiscing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. </p>
+                <a href="#">
+                    <img src="/img/+.svg" alt="button">Saiba mais
+                </a>
+            </div>
+        </section>
+        <section class="rh-service">
+            <div class="container">
+                <div class="text">
+                    <h2>O Seu RH as <span>Service</span></h2>
+                    <p>Impacte o resultado da sua empresa aproveitando o maior potencial das pessoas. </p>
+                </div>
+                <img src="./img/laptop-rh.png" alt="Tela plano de ação da plataforma aurora">
+                <img src="./img/funil.png" alt="Informações sobre funil" class="pic1">
+                <img src="./img/custo-rh.png" alt="Informações sobre custos" class="pic2">
+            </div>
+        </section>
+        <section class="impacto" id="impacto">
+            <div class="text">
+                <span>Impacto no Mundo Empresarial</span>
+                <div class="right   ">
+                    <h2>Decisões mais inteligentes geram <span>empresas mais fortes</span></h2>
+                    <p>Empresas que utilizam soluções estratégicas de gestão conseguem reduzir erros operacionais,
+                        melhorar a produtividade e aumentar a eficiência das equipes. A Aurora Pro foi criada para
+                        tornar o RH um setor mais analítico, estratégico e <b>conectado aos resultados da empresa.</b>
+                    </p>
+                    <div class="bullet-text">
+                        <p>Redução de decisões impulsivas em desligamentos</p>
+                    </div>
+                    <div class="bullet-text">
+                        <p>Maior clareza sobre desempenho e potencial dos colaboradores</p>
+                    </div>
+                    <div class="bullet-text">
+                        <p>Lideranças mais preparadas para tomada de decisão</p>
+                    </div>
+                    <div class="bullet-text">
+                        <p>Processos seletivos mais eficientes</p>
+                    </div>
+                    <div class="bullet-text">
+                        <p>Visão consolidada da empresa em tempo real</p>
+                    </div>
+                </div>
+            </div>
+            <div class="depoimentos">
+                <div class="text">
+                    <h3>Empresas que evoluem com dados <span>evoluem mais rápido</span></h3>
+                    <p>Veja como a Aurora Pro vem ajudando empresas a transformar o RH em um setor mais estratégico,
+                        humano e orientado por performance.</p>
+                </div>
+                <div class="carrossel">
+                    <section class="splide" aria-label="Depoimentos">
+                        <div class="splide__track">
+                            <ul class="splide__list">
 
+                                <li class="splide__slide">
+                                    <div class="card-carrossel c1">
+                                        <div class="empresa">
+                                            <img src="./img/selo-fiap.png" alt="Logo Fiap">
+                                            <p>Empresa FIAP</p>
+                                        </div>
+                                        <div class="depoimento">
+                                            <h4>Selton Melo, CTO</h4>
+                                            <i><b>“Transformamos dados em decisões estratégicas.</b> Hoje temos clareza
+                                                sobre , potencial e desenvolvimento de cada colaborador....”</i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card-carrossel c2">
+                                        <div class="empresa">
+                                            <img src="./img/selo-alura.png" alt="Logo Alura">
+                                            <p>Empresa Alura</p>
+                                        </div>
+                                        <div class="depoimento">
+                                            <h4>Marina Sena, CEO</h4>
+                                            <i><b>“O processo seletivo ficou muito mais assertivo.</b> Antes perdíamos
+                                                muito
+                                                tempo com contratações desalinhadas ao perfil da vaga....”</i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card-carrossel c3">
+                                        <div class="empresa">
+                                            <img src="./img/selo-fiap.png" alt="Logo Fiap">
+                                            <p>Empresa FIAP</p>
+                                        </div>
+                                        <div class="depoimento">
+                                            <h4>Fernando Torres, RH</h4>
+                                            <i><b>“Hoje tomamos decisões com muito mais confiança.</b> A Aurora Pro
+                                                trouxe uma visão que antes simplesmente não existia dentro do nosso
+                                                RH...”</i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card-carrossel c4">
+                                        <div class="empresa">
+                                            <img src="./img/selo-figma.png" alt="Logo Figma">
+                                            <p>Empresa Figma</p>
+                                        </div>
+                                        <div class="depoimento">
+                                            <h4>Raiana Silva, PM</h4>
+                                            <i><b>“Os líderes passaram a agir com mais inteligência.</b> A plataforma
+                                                facilitou muito a comunicação entre RH e liderança.””</i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card-carrossel c5">
+                                        <div class="empresa">
+                                            <img src="./img/selo-microsoft.png" alt="Logo microsoft">
+                                            <p>Empresa Microsoft</p>
+                                        </div>
+                                        <div class="depoimento">
+                                            <h4>Bruno Marcio, CEO</h4>
+                                            <i><b>“Conseguimos crescer mantendo organização e cultura.</b> Mesmo com a
+                                                expansão da empresa, a Aurora Pro nos ajudou a manter processos...”</i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="container">
+                <img src="./img/infos.png" alt="Informações da plataforma aurora">
+                <div class="text">
+                    <span>Contato</span>
+                    <h2><img src="./img/text-contact.png" alt="Vamos transformar a gestão da sua empresa?">
+                    </h2>
+                    <p>Entre em contato com a equipe da Aurora Pro e descubra como a plataforma pode ajudar
+                        sua empresa a evoluir através de decisões mais inteligentes e estratégicas.</p>
+                    <a href="#">
+                        <img src="/img/+2.svg" alt="button">Entre em contato
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
     <footer>
 
@@ -38,6 +195,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
 
 </body>
 
