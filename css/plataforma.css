@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:opsz@6..12&display=swap');*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
-    background: #ff0;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5%;
+    gap: 10%;
 }
 #img-platform-ex{
     width: 500px;
@@ -39,31 +39,35 @@ body {
     padding-left: 2%;
 }
 #search-bar-section{
-    width: 80%;
+    width: 78%;
     height: 9%;
     border-radius: 15px;
     background-color: #EEEAF2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 2%;
 }
 #topics-search-bar-section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5%;
+    gap: 3%;
     padding-left: 2%;
 }
 #topic-destaq-search-bar{
     display: flex;
     flex-direction: row;
     gap: 5%;
-    width: 120px;
+    width: 125px;
     color: #230C0C;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 #line-search-bar{
     height: 2px;
-    width: 120px;
+    width: 125px;
     background-color: #8602BA;
     margin-left: 2%;
 }
@@ -73,6 +77,9 @@ body {
     gap: 5%;
     width: 100px;
     opacity: 50%;
+    font-size: 0.9rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 #perfil-ex-platform{
     background-color: #f5f5f5;
@@ -117,9 +124,15 @@ body {
 }
 #perfil-name-platform{
     color: #230C0C;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
 }
 #perfil-cargo-platform{
     color: #585C66;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 #perfil-profi-platform{
     color: #3C1B72;
@@ -129,22 +142,57 @@ body {
     text-align: center;
     border-radius: 30px;
     padding-top: 0.5%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+#perfil-title-descrip-platform{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #230C0C;
+    font-size: 1.1rem;
+}
+#perfil-text-descrip-platform{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #230C0C;
+    font-size: 0.95rem;
 }
 .text-section-platform{
-    width: 50%;
-    height: 400px;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    gap: 7%;
+    gap: 40px;
 }
-#topic-section-platform{
+.topic-section-platform{
     width: 170px;
-    height: 40px;
+    height: 38px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid #8602BA;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: #8602BA;
+    font-size: 1.1rem;
+}
+.title-text-section-plaform{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 120%;
+    width: 90%;
+}
+.span-roxo{
+    color: #8602BA;
+}
+.text-ex-section-platform{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
 }
 .agendar-btn-section-platform{
     display: flex;
@@ -152,10 +200,13 @@ body {
     background: linear-gradient(132deg,rgba(217, 76, 244, 1) 50%, rgba(126, 44, 142, 1) 100%);    
     height: 38px;
     align-items: center;
-    padding-left: 0.5%;
+    padding-left: 0.6%;
     gap: 6%;
     border-radius: 30px;
     color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 #agendar-btn-first-section, #agendar-btn-third-section{
     width: 300px;
@@ -180,33 +231,51 @@ body {
 #ferramentas-section-info{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    width: 80%;
+    gap: 130px;
+    width: 75%;
+    justify-content: space-between;
+    gap: 10%;
+}
+#ferramentas-section-text-box{
+    width: 50%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    gap: 15%;
+}
+#title-third-section{
+    width: 50%;
+    padding-left: 4%;
+}
+#text-third-section{
+    width: 90%;
 }
 #ferramentas-section-topics{
     display: flex;
     flex-direction: row;
     gap: 5%;
+    align-items: center;
+    justify-content: center;
 }
 .ferramentas-section-topics-itens{
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 50px;
 }
 .ferramentas-itens-box{
     background-color: #F1F1F8;
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
+    width: 520px;
+    height: 270px;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 12%;
+    gap: 6%;
     padding-top: 5%;
     padding-left: 5%;
 }
 .bi-person-x, .bi-map, .bi-people-fill, .bi-graph-up-arrow, .bi-eye-fill, .bi-handbag-fill{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #8602BA;
     color: #fff;
@@ -214,6 +283,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.8rem;
+}
+.ferramentas-section-itens-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #230C0C;
+    font-size: 1.2rem;
+    padding-top: 2%;
+    line-height: 140%;
+    width: 90%;
+}
+.ferramentas-section-itens-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #230C0C;
+    font-size: 1.1rem;
+    line-height: 140%;
+    width: 90%;
 }
 #fourth-section-graphics-platform{
     display: flex;
@@ -221,6 +308,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 85%;
+    gap: 5%;
+}
+#text-fourth-section{
+    width: 80%;
 }
 #agendar-btn-fourth-section{
     width: 160px;
