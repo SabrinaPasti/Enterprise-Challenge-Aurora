@@ -1,0 +1,183 @@
+#contact-form-section{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    align-self: center;
+    justify-self: center;
+}
+.box-section{
+    border-radius: 30px;
+    width: 35%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+#box-form{
+    background-color: #F1F1F8;
+    gap: 20px;
+}
+#form-info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#title-form{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#text-form{
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 90%;
+    line-height: 140%;
+}
+/*Formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    color: #3E424D;
+
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    border-radius: 10px;
+    border-top: #C2C4E9;
+    border-left: #C2C4E9;
+    border-right: #C2C4E9;
+    border-bottom: #C2C4E9;
+}
+.name-input{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+#nome-termos{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+#termos-bold-part{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.form-box-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}.height-input{
+    height: 35px;
+}
+.width-input-contact{
+    width: 220px;
+}
+.width-email-mensagem{
+    width: 470px;
+}
+.height-mensagem{
+    height: 100px;
+}
+#termos-box-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+#btn-enviar{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-color: #D94CF4;
+    background-color: #8602BA;
+}
+
+/*Sobre a empresa*/
+#info-empresa-box{
+    background-color: #3C1B72;
+    color: #fff;
+    gap: 10%;
+}
+#fundadoras-info{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+#fundadoras-img{
+    display: flex;
+    flex-direction: row;
+}
+#nayara-img{
+    background-image: url(/img/nayara_img_fundadora.png);
+    background-position: center;
+    background-size: cover;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    z-index: 4;
+    border: 2px solid #3C1B72;
+}
+#tatiana-img{
+    background-image: url(/img/tatiana_img_fundadora.png);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#fundadoras-names{
+    font-family: "Nunito Sans", sans-serif;
+}
+#nomes-fund{
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+}
+#cargo-fundadoras{
+    font-weight: 400;
+    font-size: 0.8rem;
+    opacity: 69%;
+}
+#sobre-empresa-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#title-info-empresa{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#text-info-empresa{
+    font-family: "Inter", sans-serif;
+    width: 95%;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 140%;
+}
+#more-sobre-empresa{
+    font-family: "Inter", sans-serif;
+    margin-top: 45px;
+    width: 85%;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 140%;
+
+}
+#magent-part{
+    color: #D94CF4;
+}

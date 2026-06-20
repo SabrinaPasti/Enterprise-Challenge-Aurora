@@ -1,0 +1,68 @@
+.contato {
+    margin: 140px 0 55px 0;
+}
+
+.contato .container {
+    background-color: #8602BA;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    box-shadow:
+        inset 0 2px 20px rgba(255, 255, 255, 0.25),
+        inset 0 -10px 30px rgba(0, 0, 0, 0.12);
+
+}
+
+.contato .container .text {
+    max-width: 517px;
+    margin-left: 57px;
+}
+
+.contato .container .text span {
+    text-transform: uppercase;
+    font-family: 'Nunito sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2%;
+    color: #ffffff;
+    padding: 8.5px 29px;
+    border: 1px solid #FFF;
+    border-radius: 75px;
+}
+
+.contato .container .text img {
+    margin-top: 30px;
+}
+
+
+.contato .container .text p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contato .container .text a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 32px 4px 4px;
+    border: solid 1px #D94CF4;
+    border-radius: 70px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    width: fit-content;
+    background-color: #D94CF4;
+
+}
+
+.contato .container .text a:hover {
+    opacity: .8;
+    transition: .3s all;
+}
+
+.contato .container .text a img {
+    margin-right: 22px;
+    margin-top: 0;
+}

@@ -1,0 +1,175 @@
+#plans-section{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    align-self: center;
+    justify-self: center;
+}
+#plans-section-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+#plans-section-title{
+    width: 30%;
+}
+#plans-section-texto-expli{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+}
+#plans-section-text{
+    width: 90%;
+}
+#plans-section-rosa-roxo-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.plans-section-card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: linear-gradient(180deg,rgba(241, 241, 248, 1) 15%, rgba(255, 255, 255, 1) 98%);
+    border-radius: 30px;
+    padding-top: 7%;
+    gap: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+.plans-section-card-title{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.title-plans{
+    font-size: 1.5rem;
+}
+.bi-gem{
+    font-size: 0.8rem;
+}
+.topics-plans-title{
+    font-size: 1.1rem;
+    color: #212529;
+    opacity: 75%;
+}
+.topics-plans{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 1rem;
+    align-items: center;
+}
+.plans-section-division{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.plans-section-card-itens{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.line-division{
+    width: 3px;
+    height: 150px;
+    align-self: center;
+    justify-self: center;
+}
+#line-division-rosa{
+    background-color: #A91079;
+}
+#line-division-roxo{
+    height: 210px;
+    background-color: #8602BA;
+}
+.plans-section-card-prices{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 12px;
+    padding-left: 2%;
+}
+.plans-section-topics-prices{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 100%;
+}
+.plans-section-divsion-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topics-plans-mensal-anual{
+    font-size: 0.8rem;
+    color: #212529;
+    opacity: 75%;
+}
+.plano-rosa{
+    color: #A91079;
+}
+.plano-roxo{
+    color: #8602BA;
+}
+.topics-num-prices{
+    font-size: 0.7rem;
+    align-self: flex-end;
+}
+.plans-section-cards-colab{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.plans-section-box-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+.fundo-rosa{
+    background-color: #F0DEED;
+}
+.fundo-roxo{
+    background-color: #D4CDDE;
+}
+.plans-section-card-prices-num{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.plans-section-btn-saiba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    flex-direction: row;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid;
+    align-self: center;
+    font-size: 1.4rem;
+}
+#border-rosa{
+    border-color: #A91079;
+}
+#border-roxo{
+    border-color: #8602BA;
+}
