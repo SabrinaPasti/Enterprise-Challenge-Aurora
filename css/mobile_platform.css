@@ -1,0 +1,151 @@
+/*Celular*/
+@media (min-width: 300px){
+    /*Corpo do site*/
+    *{
+    overflow-x: hidden;
+    }
+    body{
+        background-color: hotpink;
+    }
+    /*Primeira seção sobre plataforma*/
+    #first-section-platform{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 80px;
+        padding-top: 10px;
+    }
+    /*Box de texto da 1º seção plataforma*/
+    .text-section-platform{
+        width: 100%;
+        gap: 20px;
+    }
+    .topic-section-platform{
+        width: 150px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+    .title-text-section-plaform{
+        font-size: 1.9rem;
+        width: 100%;
+    }
+    .text-ex-section-platform{
+        font-size: 0.8rem;
+    }
+    .agendar-btn-section-platform{
+        font-size: 0.8rem;
+        height: 30px;
+    }
+    #agendar-btn-first-section, #agendar-btn-third-section{
+        width: 250px;
+    }
+    .btn-agendar-plus{
+        width: 25px;
+        height: 25px;
+    }
+    /*box de imagem de exemplo da 1º seção*/
+    #img-platform-ex{
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        border-radius: 15px;
+    }
+    #search-bar-section{
+        width: 270px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    #topic-destaq-search-bar{
+        font-size: 0.7rem;
+    }
+    .topics-search-bar{
+        font-size: 0.7rem;
+    }
+    #line-search-bar{
+        width: 95px;
+    }
+    #perfil-ex-platform{
+        height: 65%;
+    }
+    #perfil-img-ex-platform{
+        width: 30px;
+        height: 30px;
+    }
+    #perfil-name-platform{
+        font-size: 0.9rem;
+    }
+    #perfil-cargo-platform{
+        font-size: 0.7rem;
+    }
+    #perfil-profi-platform{
+        font-size: 0.7rem;
+        width: 100px;
+        height: 15px;
+    }
+    #perfil-title-descrip-platform{
+        font-size: 0.7rem;
+        height: 20px;
+    }
+    #perfil-text-descrip-platform{
+        font-size: 0.7rem;
+        height: 90px;
+    }
+
+
+    /*terceira seção sobre plataforma*/
+
+    #third-section-platform{
+        gap: 10px;
+    }
+    /*Box de texto da 2º seção plataforma*/
+    #ferramentas-section-info{
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+    }
+    #ferramentas-section-text-box{
+        width: 100%;
+    }
+    #title-third-section{
+        width: 100%;
+        padding-left: 0;
+    }
+    #text-third-section{
+        width: 100%;
+    }
+    /*Box de ferramentas da plataforma da 2º seção*/
+    #ferramentas-section-topics{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ferramentas-itens-box{
+        width: 290px;
+        height: 250px;
+    }
+    .bi-person-x, .bi-map, .bi-people-fill, .bi-graph-up-arrow, .bi-eye-fill, .bi-handbag-fill{
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .ferramentas-section-itens-title{
+        font-size: 1rem;
+    }
+    .ferramentas-section-itens-text{
+        font-size: 0.9rem;
+    }
+
+
+    /* quarta seção sobre plataforma*/
+    #fourth-section-graphics-platform{
+        flex-direction: column;
+        gap: 80px;
+    }
+    #title-fourth-section-mobile{
+        background-color: blueviolet;
+        height: 85px;
+    }
+    #text-fourth-section{
+        width: 100%;
+    }
+}
