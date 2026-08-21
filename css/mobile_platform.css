@@ -4,9 +4,9 @@
     *{
     overflow-x: hidden;
     }
-    body{
-        background-color: hotpink;
-    }
+
+
+
     /*Primeira seção sobre plataforma*/
     #first-section-platform{
         display: flex;
@@ -27,6 +27,7 @@
     .title-text-section-plaform{
         font-size: 1.9rem;
         width: 100%;
+        height: 120px;
     }
     .text-ex-section-platform{
         font-size: 0.8rem;
@@ -98,7 +99,7 @@
     #third-section-platform{
         gap: 10px;
     }
-    /*Box de texto da 2º seção plataforma*/
+    /*Box de texto da 3º seção plataforma*/
     #ferramentas-section-info{
         flex-direction: column;
         width: 100%;
@@ -136,16 +137,100 @@
     }
 
 
-    /* quarta seção sobre plataforma*/
+    /* quarta seção sobre plataforma mobile*/
     #fourth-section-graphics-platform{
         flex-direction: column;
         gap: 80px;
     }
+    /*Box de texto da 4º seção plataforma*/
     #title-fourth-section-mobile{
-        background-color: blueviolet;
         height: 85px;
     }
     #text-fourth-section{
         width: 100%;
+    }
+    /*box de imagem de exemplo da 4º seção*/
+    #fourth-section-box-img{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    #fourth-section-graphic-img{
+        width: 250px;
+        height: 160px;
+    }
+
+
+    /* seção sobre os planos mobile*/
+    #plans-section-info{
+        flex-direction: column;
+    }
+    /*Box de texto da seção de planos*/
+    #plans-section-title{
+        width: 85%;
+    }
+    #plans-section-texto-expli{
+        width: 85%;
+    }
+    /*Box de planos*/
+    .plans-section-card{
+        width: 290px;
+    }
+    .plans-section-division{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .line-division, #line-division-roxo{
+        width: 80%;
+        height: 5px;
+    }
+    .plans-section-card-itens{
+        width: 90%;
+    }
+    .plans-section-card-prices{
+        width: 90%;
+    }
+    .plans-section-btn-saiba{
+        width: 130px;
+        height: 30px;
+        font-size: 1rem;
+    }
+    .topics-plans-title{
+        font-size: 1rem;
+    }
+    .plans-section-box-background{
+        font-size: 0.8rem
+    }
+    .plans-section-card-prices-num{
+        font-size: 0.8rem;
+    }
+
+
+
+
+    /* seção sobre contato mobile*/
+    #contact-form-section{
+        background-color: aquamarine;
+        flex-direction: column-reverse;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+
+    /*Footer mobile*/
+    footer{
+        height: 800px;
+    }
+    #footer-text-section{
+        flex-direction: column;
+        height: 30px;
+    }
+    #footer-copyright{
+        flex-direction: column;
+    }
+    #img-logo-aurora{
+        width: 20px;
     }
 }
