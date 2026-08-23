@@ -206,34 +206,35 @@
     }
 
 
-        /* seção sobre contato mobile*/
+    /* seção sobre contato mobile*/
     #contact-form-section{
-        background-color: aquamarine;
         flex-direction: column;
         gap: 50px;
         justify-content: center;
         align-items: center;
     }
+    /*box de contato*/
     .box-section{
         width: 95%;
-        padding-left: 2%;
         justify-content: center;
         align-items: center;
     }
+    /*form box mobile*/
+    #box-form{
+        height: 800px;
+        padding-left: 5%;
+    }
     #title-form{
-        font-size: 1.1rem;
-    }
-    .name-input{
-        font-size: 0.7rem;
-    }
+        font-size: 1.2rem;
+    }    
     #text-form{
         font-size: 0.8rem;
     }
-    #nome-termos, #termos-bold-part{
+    .name-input, #nome-termos, #termos-bold-part{
         font-size: 0.7rem;
     }
     .width-input-contact{
-        width: 85px;
+        width: 90%;
     }
     .width-email-mensagem{
         width: 250px;
@@ -241,20 +242,32 @@
     #box-termos-submit{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 25px;
+        height: 90px;
+    }
+    .form-box-row{
+        height: 130px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #form-contac{
+        width: 100%;
+    }
+
+    /*box sobre a empresa*/
+    #info-empresa-box{
+        padding-left: 0;
+        gap: 30px;
     }
     #title-info-empresa{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
-    #text-info-empresa{
-        font-size: 0.8rem;
-    }
-    #more-sobre-empresa{
+    #text-info-empresa, #more-sobre-empresa{
         font-size: 0.8rem;
     }
     #nayara-img, #tatiana-img{
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 65px;
     }
     #nomes-fund{
         font-size: 0.7rem;
@@ -262,6 +275,20 @@
     #fundadoras-info{
         flex-direction: column;
         text-align: center;
+        height: 150px;
+        gap: 15px;
+        justify-content: center;
+        width: 90%;
+    }
+    #fundadoras-img{
+        gap: 10px;
+    }
+    #more-sobre-empresa{
+        width: 90%;
+        margin-top: 30px;
+    }
+    #sobre-empresa-info{
+        width: 90%;
     }
 
 
@@ -273,13 +300,42 @@
     }
     #footer-text-section{
         flex-direction: column;
-        height: 30px;
-    }
-    #footer-copyright{
-        flex-direction: column;
+        height: 600px;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        padding-left: 0;
     }
     #img-logo-aurora{
-        width: 20px;
+        width: 150px;
+    }
+    #footer-redes-logo{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        gap: 25px;
+    }
+    .footer-redes-contact{
+        gap: 10px;
+    }
+    #footer-description-section{
+        width: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+    .footer-description-info{
+        width: 90px;
+        text-align: center;
+    }
+    .footer-info{
+        width: 100%;
+    }
+    #footer-copyright{
+        height: 100px;
+        flex-direction: column;
+        gap:20px
     }
 }
 

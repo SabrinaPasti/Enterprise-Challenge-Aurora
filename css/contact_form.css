@@ -73,7 +73,8 @@ input{
     display: flex;
     flex-direction: row;
     gap: 30px;
-}.height-input{
+}
+.height-input{
     height: 35px;
 }
 .width-input-contact{
@@ -126,7 +127,6 @@ input{
     height: 73px;
     border-radius: 50%;
     z-index: 4;
-    border: 2px solid #3C1B72;
 }
 #tatiana-img{
     background-image: url(/img/tatiana_img_fundadora.png);
