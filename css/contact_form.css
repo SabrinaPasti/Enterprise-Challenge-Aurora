@@ -118,6 +118,7 @@ input{
 #fundadoras-img{
     display: flex;
     flex-direction: row;
+    gap: 2px;
 }
 #nayara-img{
     background-image: url(/img/nayara_img_fundadora.png);

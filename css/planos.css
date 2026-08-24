@@ -112,6 +112,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.row-plans{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    gap: 30%;
+}
 .topics-plans-mensal-anual{
     font-size: 0.8rem;
     color: #212529;
