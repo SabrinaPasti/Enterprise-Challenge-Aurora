@@ -1,0 +1,223 @@
+@media screen and (min-width: 800px) and (max-width: 1024px){
+    /*Corpo do site*/
+    *{
+    overflow-x: hidden;
+    }
+
+
+    /*Primeira seção sobre plataforma*/
+    #first-section-platform{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 200px;
+        padding-top: 10px;
+    }
+
+    /*Box de texto da 1º seção plataforma*/
+    .text-section-platform{
+        width: 100%;
+        gap: 60px;
+    }
+    .topic-section-platform{
+        width: 230px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+    .title-text-section-plaform{
+        font-size: 3.1rem;
+        width: 100%;
+        height: 185px;
+    }
+    .text-ex-section-platform{
+        font-size: 1.5rem;
+    }
+    .agendar-btn-section-platform{
+        font-size: 1.4rem;
+        height: 40px;
+    }
+    #agendar-btn-first-section, #agendar-btn-third-section{
+        width: 450px;
+    }
+    .btn-agendar-plus{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    /*box de imagem de exemplo da 1º seção*/
+    #img-platform-ex{
+        width: 550px;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        border-radius: 25px;
+    }
+    #search-bar-section{
+        width: 80%;
+        height: 45px;
+        border-radius: 13px;
+        padding-left: 1%;
+    }
+    #topic-destaq-search-bar, .topics-search-bar{
+        font-size: 1.1rem;
+    }
+    #line-search-bar{
+        width: 150px;
+    }
+    #perfil-ex-platform{
+        height: 60%;
+    }
+    #perfil-img-ex-platform{
+        width: 80px;
+        height: 80px;
+    }
+    #perfil-name-platform{
+        font-size: 1.4rem;
+    }
+        
+    #perfil-cargo-platform{
+        font-size: 1.2rem;
+    }
+    #perfil-profi-platform{
+        font-size: 1.1rem;
+        width: 150px;
+        height: 25px;
+        text-align: center;
+    }
+    #perfil-title-descrip-platform{
+        font-size: 1.3rem;
+        height: 35px;
+    }
+    #perfil-text-descrip-platform{
+        font-size: 1.1rem;
+        height: 135px;
+    }
+    #topic-destaq-search-bar{
+        width: 160px;
+    }
+    .topics-search-bar{
+        width: 120px;
+    }
+    #perfil-cargo-text-platform{
+        width: 300px;
+    }
+
+    /*terceira seção sobre plataforma*/
+    #third-section-platform{
+        gap: 200px;
+    }
+
+    /*Box de texto da 3º seção plataforma*/
+    #ferramentas-section-info{
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
+    #ferramentas-section-text-box{
+        width: 100%;
+    }
+    #title-third-section{
+        width: 100%;
+        padding-left: 0;
+    }
+    #text-third-section{
+        width: 100%;
+    }
+
+    /*Box de ferramentas da plataforma da 3º seção*/
+    #ferramentas-section-topics{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ferramentas-itens-box{
+        width: 500px;
+        height: 350px;
+    }
+    .bi-person-x, .bi-map, .bi-people-fill, .bi-graph-up-arrow, .bi-eye-fill, .bi-handbag-fill{
+        width: 75px;
+        height: 75px;
+        font-size: 2.2rem;
+    }
+    .ferramentas-section-itens-title{
+        font-size: 1.5rem;
+    }
+    .ferramentas-section-itens-text{
+        font-size: 1.2rem;
+    }
+
+
+    /* quarta seção sobre plataforma*/
+    #fourth-section-graphics-platform{
+        flex-direction: column;
+        gap: 200px;
+    }
+
+    /*Box de texto da 4º seção plataforma*/
+    #title-fourth-section-mobile{
+        height: 130px;
+    }
+    #text-fourth-section{
+        width: 100%;
+    }
+    #agendar-btn-fourth-section{
+        width: 220px;
+    }
+
+    /*box de imagem de exemplo da 4º seção*/
+    #fourth-section-box-img{
+        width: 550px;
+        height: 550px;
+        border-radius: 25px;
+    }
+    #fourth-section-graphic-img{
+        width: 450px;
+        height: 270px;
+    }
+
+
+    /* seção sobre os planos*/
+    #plans-section-info{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /*Box de texto da seção de planos*/
+    #plans-section-title{
+        width: 100%;
+        height: 140px;
+    }
+    #plans-section-texto-expli{
+        width: 100%;
+    }
+
+
+    /*seção sobre o contato*/
+    #contact-form-section{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*box de contato*/
+    .box-section{
+        width: 70%;
+    }
+
+
+    /*Footer*/
+    #footer-text-section{
+        width: 95%;
+        gap: 20%;
+    }
+    .footer-description-info{
+        width: 250px;
+    }
+    #footer-description-section{
+        width: 50%;
+    }
+    #footer-copyright{
+        gap: 45%;
+    }
+}

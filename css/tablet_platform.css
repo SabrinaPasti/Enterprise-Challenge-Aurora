@@ -1,4 +1,4 @@
-@media (min-width:530px) and (max-width:700px){
+@media screen and (min-width:530px) and (max-width:800px){
     /*Corpo do site*/
     *{
     overflow-x: hidden;
@@ -133,7 +133,7 @@
     }
 
 
-    /* quarta seção sobre plataforma mobile*/
+    /* quarta seção sobre plataforma tablet*/
     #fourth-section-graphics-platform{
         flex-direction: column;
         gap: 120px;
@@ -162,7 +162,7 @@
     }
     
 
-    /* seção sobre os planos mobile*/
+    /* seção sobre os planos tablet*/
     #plans-section-info{
         flex-direction: column;
         gap: 15px;
@@ -215,7 +215,7 @@
     }
 
 
-    /* seção sobre contato mobile*/
+    /* seção sobre contato tablet*/
     #contact-form-section{
         flex-direction: column;
         gap: 50px;
@@ -230,7 +230,7 @@
         align-items: center;
     }
 
-    /*form box mobile*/
+    /*form box tablet*/
     #box-form{
         height: 900px;
         padding-left: 5%;
@@ -305,7 +305,7 @@
     }
 
 
-    /*Footer mobile*/
+    /*Footer tablet*/
     footer{
         height: 800px;
     }
