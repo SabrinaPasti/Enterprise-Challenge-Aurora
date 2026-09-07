@@ -1,0 +1,29 @@
+
+body {
+    --sb-track-color: #D2D7F4;
+    --sb-thumb-color: linear-gradient(180deg, #d94cf4 0%, #8602ba 31%, #381976 69%, #473eec 100%);
+    --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d94cf4;
+    background-image: linear-gradient(180deg, #d94cf4 0%, #8602ba 31%, #381976 69%, #473eec 100%);
+    border-radius: 3px;
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+    scrollbar-color: var(--sb-thumb-color)
+                    var(--sb-track-color);
+    }
+}
