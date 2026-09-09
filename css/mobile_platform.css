@@ -1,20 +1,20 @@
-/*Celular*/
+/*Responsividade para Celular*/
 @media screen and (min-width: 300px) and (max-width:530px){
     /*Corpo do site*/
-    *{
+    body{
     overflow-x: hidden;
     }
 
 
-
-    /*Primeira seção sobre plataforma*/
+    /*1º seção sobre plataforma*/
     #first-section-platform{
         display: flex;
         flex-direction: column-reverse;
         gap: 80px;
         padding-top: 10px;
     }
-    /*Box de texto da 1º seção plataforma*/
+
+    /*Box de texto da 1º seção plataforma mobile*/
     .text-section-platform{
         width: 100%;
         gap: 20px;
@@ -43,7 +43,9 @@
         width: 25px;
         height: 25px;
     }
-    /*box de imagem de exemplo da 1º seção*/
+
+
+    /*box de imagem da 1º seção mobile*/
     #img-platform-ex{
         width: 300px;
         height: 300px;
@@ -91,12 +93,13 @@
     }
 
 
-    /*terceira seção sobre plataforma*/
-
+    /*3º seção sobre plataforma*/
     #third-section-platform{
         gap: 10px;
     }
-    /*Box de texto da 3º seção plataforma*/
+
+
+    /*Box de texto da 3º seção plataforma plataforma*/
     #ferramentas-section-info{
         flex-direction: column;
         width: 100%;
@@ -112,7 +115,9 @@
     #text-third-section{
         width: 100%;
     }
-    /*Box de ferramentas da plataforma da 2º seção*/
+
+
+    /*Box de ferramentas da 2º seção mobile*/
     #ferramentas-section-topics{
         flex-direction: column;
         gap: 50px;
@@ -134,19 +139,19 @@
     }
 
 
-    /* quarta seção sobre plataforma mobile*/
+    /* 4º seção sobre plataforma mobile*/
     #fourth-section-graphics-platform{
         flex-direction: column;
         gap: 80px;
     }
-    /*Box de texto da 4º seção plataforma*/
+    /*Box de texto da 4º seção plataforma mobile*/
     #title-fourth-section-mobile{
         height: 85px;
     }
     #text-fourth-section{
         width: 100%;
     }
-    /*box de imagem de exemplo da 4º seção*/
+    /*Box de imagem da 4º seção mobile*/
     #fourth-section-box-img{
         width: 300px;
         height: 300px;
@@ -162,6 +167,7 @@
     #plans-section-info{
         flex-direction: column;
     }
+
     /*Box de texto da seção de planos*/
     #plans-section-title{
         width: 100%;
@@ -170,7 +176,8 @@
     #plans-section-texto-expli{
         width: 100%;
     }
-    /*Box de planos*/
+
+    /*Cards de planos mobile*/
     .plans-section-card{
         width: 290px;
     }
@@ -217,7 +224,8 @@
         justify-content: center;
         align-items: center;
     }
-    /*form box mobile*/
+
+    /*Card de formulário mobile*/
     #box-form{
         height: 800px;
         padding-left: 5%;
@@ -252,7 +260,7 @@
         width: 100%;
     }
 
-    /*box sobre a empresa*/
+    /*Card sobre a empresa mobile*/
     #info-empresa-box{
         padding-left: 0;
         gap: 30px;

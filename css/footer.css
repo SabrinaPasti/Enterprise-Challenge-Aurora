@@ -1,3 +1,4 @@
+/*Rodápe*/
 footer{
     display: flex;
     flex-direction: column;
@@ -62,6 +63,7 @@ footer{
 .footer-title-description{
     font-weight: 600;
 }
+/*Seção do Copyright*/
 #footer-copyright{
     display: flex;
     flex-direction: row;

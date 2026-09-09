@@ -1,4 +1,24 @@
+/*CSS básico e fonts*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:opsz@6..12&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    flex-direction: column;
+    gap: 140px;
+}
 
+/*Barra de rolagem*/
 body {
     --sb-track-color: #D2D7F4;
     --sb-thumb-color: linear-gradient(180deg, #d94cf4 0%, #8602ba 31%, #381976 69%, #473eec 100%);
@@ -27,3 +47,23 @@ body::-webkit-scrollbar-thumb {
                     var(--sb-track-color);
     }
 }
+
+/*Hover do botão de agendar demonstração*/
+.agendar-btn-section-platform:hover{
+    background: #fff;
+    border: 2px solid #d94cf4;
+    color: #d94cf4;
+}
+
+.btn-rosa:hover{
+    border: none;
+    background-color: #d94cf4;
+    background-image: linear-gradient(315deg, #d94cf4 1%, #e5cbec 40%, #f7f5ff 70%);
+}
+
+.btn-roxo:hover{
+    background-color: #381976;
+    background-image: linear-gradient(315deg, #381976 1%, #a49fe0 40%, #f7f5ff 83%);
+    border: none;
+}
+

@@ -1,3 +1,4 @@
+/*CSS da seção dos contatos*/
 #contact-form-section{
     width: 85%;
     display: flex;
@@ -6,15 +7,19 @@
     justify-content: center;
     gap: 2%;
 }
+
+/*Caixas*/
 .box-section{
     border-radius: 30px;
     width: 35%;
     height: 570px;
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 2%;
 }
+
+/*Caixa do formulário*/
 #box-form{
     background-color: #F1F1F8;
     gap: 20px;
@@ -102,7 +107,7 @@ input{
     border-color: #D94CF4;
     background-color: #8602BA;
 }
-/*Sobre a empresa*/
+/*Caixa sobre a empresa*/
 #info-empresa-box{
     background-color: #3C1B72;
     color: #fff;
@@ -120,6 +125,8 @@ input{
     flex-direction: row;
     gap: 2px;
 }
+
+/*Imagem das fundadoras*/
 #nayara-img{
     background-image: url(/img/nayara_img_fundadora.png);
     background-position: center;
@@ -176,6 +183,7 @@ input{
     line-height: 140%;
 
 }
+/*Parte magenta*/
 #magent-part{
     color: #D94CF4;
 }

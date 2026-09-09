@@ -1,18 +1,19 @@
 @media screen and (min-width:530px) and (max-width:800px){
     /*Corpo do site*/
-    *{
+    body{
     overflow-x: hidden;
     }
 
 
-    /*Primeira seção sobre plataforma*/
+    /*1º seção sobre plataforma tablet*/
     #first-section-platform{
         display: flex;
         flex-direction: column-reverse;
         gap: 150px;
         padding-top: 10px;
     }
-    /*Box de texto da 1º seção plataforma*/
+
+    /*Box de texto da 1º seção plataforma tablet*/
     .text-section-platform{
         width: 100%;
         gap: 40px;
@@ -30,6 +31,8 @@
     .text-ex-section-platform{
         font-size: 1.1rem;
     }
+
+    /*Botão de agendar 3º e 1º seção tablet*/
     .agendar-btn-section-platform{
         font-size: 1.2rem;
         height: 35px;
@@ -42,7 +45,7 @@
         height: 30px;
     }
 
-    /*box de imagem de exemplo da 1º seção*/
+    /*box de imagem da 1º seção tablet*/
     #img-platform-ex{
         width: 420px;
         height: 420px;
@@ -89,12 +92,12 @@
         height: 135px;
     }
 
-    /*terceira seção sobre plataforma*/
+    /*3º seção sobre plataforma tablet*/
     #third-section-platform{
         gap: 100px;
     }
 
-    /*Box de texto da 3º seção plataforma*/
+    /*Box de texto da 3º seção plataforma tablet*/
     #ferramentas-section-info{
         flex-direction: column;
         width: 100%;
@@ -111,7 +114,7 @@
         width: 100%;
     }
 
-    /*Box de ferramentas da plataforma da 3º seção*/
+    /*Cards de ferramentas da plataforma da 3º seção tablet*/
     #ferramentas-section-topics{
         flex-direction: column;
         gap: 50px;
@@ -133,13 +136,13 @@
     }
 
 
-    /* quarta seção sobre plataforma tablet*/
+    /* 4º seção sobre plataforma tablet*/
     #fourth-section-graphics-platform{
         flex-direction: column;
         gap: 120px;
     }
 
-    /*Box de texto da 4º seção plataforma*/
+    /*Box de texto da 4º seção plataforma tablet*/
     #title-fourth-section-mobile{
         height: 100px;
     }
@@ -150,7 +153,7 @@
         width: 200px;
     }
 
-    /*box de imagem de exemplo da 4º seção*/
+    /*box de imagem da 4º seção tablet*/
     #fourth-section-box-img{
         width: 420px;
         height: 420px;
@@ -168,7 +171,7 @@
         gap: 15px;
     }
 
-    /*Box de texto da seção de planos*/
+    /*Box de texto da seção de planos tablet*/
     #plans-section-title{
         width: 100%;
         height: 100px;
@@ -177,7 +180,7 @@
         width: 100%;
     }
 
-    /*Box de planos*/
+    /*Cards de planos tablet*/
     .plans-section-card{
         width: 400px;
     }
@@ -223,14 +226,14 @@
         align-items: center;
     }
 
-    /*box de contato*/
+    /*Caixa da seção de contato tablet*/
     .box-section{
         width: 95%;
         justify-content: center;
         align-items: center;
     }
 
-    /*form box tablet*/
+    /*Card de formulário tablet*/
     #box-form{
         height: 900px;
         padding-left: 5%;
@@ -266,7 +269,7 @@
     }
 
 
-    /*box sobre a empresa*/
+    /*Card sobre a empresa*/
     #info-empresa-box{
         padding-left: 0;
         gap: 40px;

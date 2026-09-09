@@ -1,21 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:opsz@6..12&display=swap');*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2%;
-    flex-direction: column;
-    gap: 140px;
-}
+
 /*primeira seção*/
 #first-section-platform{
     width: 85%;
@@ -25,6 +8,8 @@ body {
     justify-content: center;
     gap: 10%;
 }
+
+/*Box de imagem 1º seção*/
 #img-platform-ex{
     width: 500px;
     height: 510px;
@@ -178,6 +163,8 @@ body {
     color: #8602BA;
     font-size: 1.1rem;
 }
+
+/*Box de texto*/
 .title-text-section-plaform{
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
@@ -185,6 +172,8 @@ body {
     line-height: 120%;
     width: 90%;
 }
+
+/*Tag de span*/
 .span-roxo{
     color: #8602BA;
 }
@@ -194,6 +183,8 @@ body {
     font-size: 1.2rem;
     line-height: 150%;
 }
+
+/*Botão para agendar*/
 .agendar-btn-section-platform{
     display: flex;
     flex-direction: row;
@@ -220,6 +211,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/*3º seção sobre plataforma*/
 #third-section-platform{
     width: 85%;
     display: flex;
@@ -228,6 +221,8 @@ body {
     justify-content: center;
     gap: 100px;
 }
+
+/*Box de texto*/
 #ferramentas-section-info{
     display: flex;
     flex-direction: row;
@@ -239,7 +234,7 @@ body {
 #ferramentas-section-text-box{
     width: 50%;
     display: flex;
-    height: 200px;
+    height: 250px;
     flex-direction: column;
     gap: 15%;
 }
@@ -250,6 +245,8 @@ body {
 #text-third-section{
     width: 90%;
 }
+
+/*Cards de ferramentas*/
 #ferramentas-section-topics{
     display: flex;
     flex-direction: row;
@@ -302,6 +299,8 @@ body {
     line-height: 140%;
     width: 90%;
 }
+
+/*4º seção sobre a plataforma*/
 #fourth-section-graphics-platform{
     display: flex;
     flex-direction: row;
@@ -310,12 +309,18 @@ body {
     width: 85%;
     gap: 5%;
 }
+
+/*Box de texto*/
 #text-fourth-section{
     width: 80%;
 }
+
+/*Botão para agendar*/
 #agendar-btn-fourth-section{
     width: 160px;
 }
+
+/*Box de imagem da 4º seção*/
 #fourth-section-box-img{
     background-image: url(/img/fundo_graphics_img.jpg);
     background-size: cover;
