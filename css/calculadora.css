@@ -1,0 +1,486 @@
+:root {
+    --accent: #A91079;
+    --accent-soft: #A9107914;
+    --grad-a: #D94CF4;
+    --grad-b: #7E2C8E;
+    --track-bg: #E4DEE9;
+    --text: #101010;
+    --heading: #230C0C;
+    --muted: #6B6B73;
+    --success-bg: #E9F5E9;
+    --success-text: #2E7D32;
+    --transition: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.calc-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.calc-wrapper * {
+    box-sizing: border-box;
+}
+
+@keyframes card-enter {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.calc-card {
+    width: 100%;
+    max-width: 959px;
+    background: var(--accent-soft);
+    border-radius: 24px;
+    padding: 40px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    animation: card-enter 420ms cubic-bezier(0.4, 0, 0.2, 1) both;
+    transition: background var(--transition);
+    font-family: 'Inter', sans-serif;   /* ADICIONE ESTA LINHA */
+}
+
+/* Header */
+.calc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.calc-header h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(24px, 3.4vw, 34px);
+    color: var(--text);
+    margin: 0;
+    line-height: 1.2;
+    flex: 1 1 380px;
+}
+
+.calc-header h2 .accent {
+    color: var(--accent);
+    transition: color var(--transition);
+}
+
+.calc-header p {
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+    margin: 0;
+    flex: 1 1 320px;
+    max-width: 400px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 12px;
+}
+
+.tab {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 11px 24px;
+    border-radius: 30px;
+    border: 1.5px solid var(--accent);
+    background: #ffffff;
+    color: var(--accent);
+    cursor: pointer;
+    transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.tab.active {
+    background: var(--accent);
+    color: #ffffff;
+}
+
+.tab:not(.active):hover {
+    background: var(--accent-soft);
+}
+
+.tab:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 2px;
+}
+
+/* Two-column body: controls on the left, result highlighted on the right */
+.calc-body {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.calc-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
+}
+
+/* Slider section */
+.slider-section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.slider-label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.slider-label-row .label {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--accent);
+    transition: color var(--transition);
+}
+
+.slider-label-row .value {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.slider-track-wrap {
+    position: relative;
+    padding: 30px 12px 0;
+    height: 40px;
+}
+
+.bubble {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    white-space: nowrap;
+    transition: background var(--transition), left var(--transition);
+    pointer-events: none;
+}
+
+.slider-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right, var(--accent) 0%, var(--accent) var(--fill, 24%), var(--track-bg) var(--fill, 24%), var(--track-bg) 100%);
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+    transition: background 60ms linear;
+}
+
+.slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid var(--accent);
+    cursor: grab;
+    transition: border-color var(--transition), transform 120ms ease;
+}
+
+.slider-input:hover::-webkit-slider-thumb {
+    transform: scale(1.05);
+}
+
+.slider-input:active::-webkit-slider-thumb {
+    cursor: grabbing;
+    transform: scale(1.08);
+}
+
+.slider-input::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid var(--accent);
+    cursor: grab;
+}
+
+.slider-input::-moz-range-track {
+    height: 8px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.minmax-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* Toggle */
+.toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.toggle-track {
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 30px;
+    background: #ffffff;
+}
+
+.toggle-option {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px 20px;
+    border-radius: 26px;
+    border: none;
+    background: transparent;
+    color: #59595F;
+    cursor: pointer;
+    transition: background var(--transition), color var(--transition);
+}
+
+.toggle-option.active {
+    background: var(--accent);
+    color: #fff;
+}
+
+.toggle-option:not(.active):hover {
+    background: rgba(0, 0, 0, 0.06);
+}
+
+.toggle-option:focus-visible,
+.tab:focus-visible,
+.cta-button:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 2px;
+}
+
+.discount-badge {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: var(--success-bg);
+    color: var(--success-text);
+}
+
+/* Result panel: floating white card on top of the tinted background */
+.result-panel {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 28px;
+    box-shadow: 0 12px 32px -12px rgba(16, 16, 16, 0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 18px;
+    text-align: left;
+}
+
+.result-label {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--accent);
+    transition: color var(--transition);
+}
+
+.result-value {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(30px, 3vw, 38px);
+    color: var(--text);
+    margin-top: -10px;
+}
+
+/* Brand gradient pill button, matching the site's CTA pattern */
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    padding: 4px 20px 4px 4px;
+    border-radius: 70px;
+    border: 0.5px solid var(--grad-a);
+    background: linear-gradient(105deg, var(--grad-a) 0%, var(--grad-b) 186%);
+    cursor: pointer;
+    transition: transform 120ms ease, box-shadow var(--transition);
+}
+
+.cta-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px -8px rgba(126, 44, 142, 0.55);
+}
+
+.cta-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.cta-icon .icon-plus {
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+
+.cta-icon .icon-plus::before,
+.cta-icon .icon-plus::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.cta-icon .icon-plus::before {
+    width: 12px;
+    height: 2px;
+    top: 5px;
+    left: 0;
+}
+
+.cta-icon .icon-plus::after {
+    width: 2px;
+    height: 12px;
+    left: 5px;
+    top: 0;
+}
+
+.cta-button span.label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Tablet */
+@media (max-width: 860px) {
+
+
+    .calc-card {
+        padding: 32px 28px;
+        gap: 26px;
+    }
+
+    .calc-body {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .result-panel {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    .calc-card {
+        padding: 24px 18px;
+        border-radius: 20px;
+        gap: 22px;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    .toggle-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .toggle-track {
+        width: 100%;
+    }
+
+    .toggle-option {
+        flex: 1;
+        text-align: center;
+    }
+
+    .slider-track-wrap {
+        padding: 28px 8px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .calc-card {
+        padding: 20px 14px;
+    }
+
+    .calc-header h2 {
+        font-size: 22px;
+    }
+
+    .tab,
+    .toggle-option {
+        padding-left: 14px;
+        padding-right: 14px;
+        font-size: 13px;
+    }
+
+    .result-value {
+        font-size: 26px;
+    }
+}
+
+@media (hover: none) {
+
+    .tab:not(.active):hover,
+    .toggle-option:not(.active):hover {
+        background: initial;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}

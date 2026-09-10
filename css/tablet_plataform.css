@@ -1,0 +1,354 @@
+@media screen and (min-width:530px) and (max-width:800px){
+    /*Corpo do site*/
+    body{
+    overflow-x: hidden;
+    }
+
+
+    /*1º seção sobre plataforma tablet*/
+    #first-section-platform{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 150px;
+        padding-top: 10px;
+    }
+
+    /*Box de texto da 1º seção plataforma tablet*/
+    .text-section-platform{
+        width: 100%;
+        gap: 40px;
+    }
+    .topic-section-platform{
+        width: 180px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    .title-text-section-plaform{
+        font-size: 2.3rem;
+        width: 100%;
+        height: 145px;
+    }
+    .text-ex-section-platform{
+        font-size: 1.1rem;
+    }
+
+    /*Botão de agendar 3º e 1º seção tablet*/
+    .agendar-btn-section-platform{
+        font-size: 1.2rem;
+        height: 35px;
+    }
+    #agendar-btn-first-section, #agendar-btn-third-section{
+        width: 350px;
+    }
+    .btn-agendar-plus{
+        width: 30px;
+        height: 30px;
+    }
+
+    /*box de imagem da 1º seção tablet*/
+    #img-platform-ex{
+        width: 420px;
+        height: 420px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        border-radius: 25px;
+    }
+    #search-bar-section{
+        width: 390px;
+        height: 40px;
+        border-radius: 13px;
+    }
+    #topic-destaq-search-bar, .topics-search-bar{
+        font-size: 0.9rem;
+    }
+    #line-search-bar{
+        width: 122px;
+    }
+    #perfil-ex-platform{
+        height: 65%;
+    }
+    #perfil-img-ex-platform{
+        width: 50px;
+        height: 50px;
+    }
+    #perfil-name-platform{
+        font-size: 1.2rem;
+    }
+    #perfil-cargo-platform{
+        font-size: 1rem;
+    }
+    #perfil-profi-platform{
+        font-size: 1rem;
+        width: 140px;
+        height: 25px;
+    }
+    #perfil-title-descrip-platform{
+        font-size: 1.1rem;
+        height: 25px;
+    }
+    #perfil-text-descrip-platform{
+        font-size: 1rem;
+        height: 135px;
+    }
+
+    /*3º seção sobre plataforma tablet*/
+    #third-section-platform{
+        gap: 100px;
+    }
+
+    /*Box de texto da 3º seção plataforma tablet*/
+    #ferramentas-section-info{
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
+    #ferramentas-section-text-box{
+        width: 100%;
+    }
+    #title-third-section{
+        width: 100%;
+        padding-left: 0;
+    }
+    #text-third-section{
+        width: 100%;
+    }
+
+    /*Cards de ferramentas da plataforma da 3º seção tablet*/
+    #ferramentas-section-topics{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ferramentas-itens-box{
+        width: 450px;
+        height: 300px;
+    }
+    .bi-person-x, .bi-map, .bi-people-fill, .bi-graph-up-arrow, .bi-eye-fill, .bi-handbag-fill{
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
+    .ferramentas-section-itens-title{
+        font-size: 1.3rem;
+    }
+    .ferramentas-section-itens-text{
+        font-size: 1.1rem;
+    }
+
+
+    /* 4º seção sobre plataforma tablet*/
+    #fourth-section-graphics-platform{
+        flex-direction: column;
+        gap: 120px;
+    }
+
+    /*Box de texto da 4º seção plataforma tablet*/
+    #title-fourth-section-mobile{
+        height: 100px;
+    }
+    #text-fourth-section{
+        width: 100%;
+    }
+    #agendar-btn-fourth-section{
+        width: 200px;
+    }
+
+    /*box de imagem da 4º seção tablet*/
+    #fourth-section-box-img{
+        width: 420px;
+        height: 420px;
+        border-radius: 25px;
+    }
+    #fourth-section-graphic-img{
+        width: 350px;
+        height: 210px;
+    }
+    
+
+    /* seção sobre os planos tablet*/
+    #plans-section-info{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /*Box de texto da seção de planos tablet*/
+    #plans-section-title{
+        width: 100%;
+        height: 100px;
+    }
+    #plans-section-texto-expli{
+        width: 100%;
+    }
+
+    /*Cards de planos tablet*/
+    .plans-section-card{
+        width: 400px;
+    }
+    .plans-section-division{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .line-division, #line-division-roxo{
+        width: 80%;
+        height: 3px;
+    }
+    .plans-section-card-itens, .plans-section-card-prices{
+        width: 90%;
+    }
+    .plans-section-btn-saiba{
+        width: 130px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+    .topics-plans-title{
+        font-size: 1.2rem;
+    }
+    .plans-section-box-background, .plans-section-card-prices-num{
+        font-size: 1rem
+    }
+    .plans-section-topics-prices{
+        gap: 20%;
+    }
+    .row-plans{
+        display: flex;
+        flex-direction: row;
+        width: 47%;
+        height: 20px;
+        gap: 50%;
+    }
+
+
+    /* seção sobre contato tablet*/
+    #contact-form-section{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Caixa da seção de contato tablet*/
+    .box-section{
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Card de formulário tablet*/
+    #box-form{
+        height: 900px;
+        padding-left: 5%;
+    }
+    #title-form{
+        font-size: 2rem;
+    }
+    #text-form{
+        font-size: 1.1rem;
+    }
+    .name-input, #nome-termos, #termos-bold-part{
+        font-size: 1rem;
+    }
+    .width-input-contact{
+        width: 90%;
+    }
+    .width-email-mensagem{
+        width: 250px;
+    }
+    #box-termos-submit{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 110px;
+    }
+    .form-box-row{
+        height: 150px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #form-contac{
+        width: 100%;
+    }
+
+
+    /*Card sobre a empresa*/
+    #info-empresa-box{
+        padding-left: 0;
+        gap: 40px;
+        height: 650px;
+    }
+    #title-info-empresa{
+        font-size: 1.5rem;
+    }
+    #text-info-empresa, #more-sobre-empresa{
+        font-size: 1rem;
+    }
+    #nayara-img, #tatiana-img{
+        width: 80px;
+        height: 80px;
+    }
+    #nomes-fund{
+        font-size: 1rem;
+    }
+    #fundadoras-info{
+        flex-direction: column;
+        text-align: center;
+        height: 150px;
+        gap: 20px;
+        justify-content: center;
+        width: 90%;
+    }
+    #fundadoras-img{
+        gap: 15px;
+    }
+    #more-sobre-empresa{
+        width: 90%;
+        margin-top: 30px;
+    }
+    #sobre-empresa-info{
+        width: 90%;
+    }
+
+
+    /*Footer tablet*/
+    footer{
+        height: 800px;
+    }
+    #footer-text-section{
+        flex-direction: column;
+        height: 600px;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        padding-left: 0;
+    }
+    #img-logo-aurora{
+        width: 200px;
+    }
+    #footer-redes-logo{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        gap: 25px;
+    }
+    .footer-redes-contact{
+        gap: 20px;
+    }
+    #footer-description-section{
+        width: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+    .footer-description-info{
+        width: 120px;
+        text-align: center;
+    }
+    .footer-info{
+        width: 100%;
+    }
+    #footer-copyright{
+        height: 100px;
+        flex-direction: column;
+        gap:20px
+    }
+}

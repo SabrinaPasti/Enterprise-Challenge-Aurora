@@ -1,0 +1,8 @@
+/*Efeito de visibilidade para rolagem*/
+.efeito-txt-section, 
+.efeito-img-section, .efeito-plan-cards, 
+.efeito-box-right1, .efeito-box-left1,
+.efeito-box-right2, .efeito-box-left2,
+.efeito-box-right3, .efeito-box-left3{
+    visibility: hidden;
+}

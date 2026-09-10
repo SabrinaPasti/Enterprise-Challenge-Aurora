@@ -1,8 +1,14 @@
-.rh-service{
+.rh-service {
     padding: 172px 0px;
 }
 
-.rh-service .container{
+@media (max-width: 1280px) {
+    .rh-service {
+        padding: 100px 48px;
+    }
+}
+
+.rh-service .container {
     padding: 72px 0 0 0;
     background-color: #524aad20;
     border-radius: 56px;
@@ -12,28 +18,49 @@
     position: relative;
 }
 
-.rh-service .text{
-    margin-bottom: 24px ;
+.rh-service .text {
+    margin-bottom: 24px;
 }
 
-.rh-service h2{
+.rh-service h2 {
     text-align: center;
 }
 
-.rh-service p{
+.rh-service p {
     text-align: center;
     max-width: 354px;
     margin: 0 auto;
 }
 
-img.pic1{
+img.pic1 {
     position: absolute;
     left: -63px;
     top: 85px;
 }
 
-img.pic2{
+img.pic2 {
     position: absolute;
     right: -72px;
     top: 169px;
+}
+
+
+@media (max-width: 580px) {
+    .rh-service .container .pic1 {
+        display: none;
+    }
+
+    .rh-service .container .pic2 {
+        display: none;
+    }
+
+    .rh-service .container img {
+        width: 100%;
+    }
+
+    .rh-service {
+        padding: 40px 24px;
+    }
+
+
 }
