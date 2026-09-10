@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: 2%;
+    align-self: center;
+
 }
 
 /*Caixas*/
@@ -176,7 +178,7 @@ input{
 }
 #more-sobre-empresa{
     font-family: "Inter", sans-serif;
-    margin-top: 45px;
+    margin-top: 25px;
     width: 85%;
     font-weight: 700;
     font-size: 1.1rem;

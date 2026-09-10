@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     gap: 10%;
+    align-self: center;
 }
 
 /*Box de imagem 1º seção*/
@@ -221,6 +222,8 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
+    align-self: center;
+
 }
 
 /*Box de texto*/
@@ -309,6 +312,8 @@
     justify-content: center;
     width: 85%;
     gap: 5%;
+    align-self: center;
+
 }
 
 /*Box de texto*/

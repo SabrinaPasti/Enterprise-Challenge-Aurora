@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: 130px;
+    align-self: center;
+
 }
 
 /*Box de texto seção de planos*/
