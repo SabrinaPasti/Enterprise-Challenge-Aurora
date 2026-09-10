@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/rh-service.css">
     <link rel="stylesheet" href="css/impacto.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/calculadora.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
 
 
@@ -41,10 +42,10 @@
     <div class="main-content" id="mainContent">
         <section class="aurora" id="#inicio">
             <div class="container">
-                <h2>Lorem ipsum dolor consectetur adipiscing</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. </p>
+                <h2>Gestão de pessoas guiada por dados reais</h2>
+                <p>A Aurora Pro reúne em um só lugar os indicadores que sua empresa precisa para entender pessoas,
+                    lideranças e desempenho. Menos planilha solta e decisão no feeling, mais clareza pra agir com
+                    segurança no dia a dia do RH. </p>
                 <a href="#">
                     <img src="/img/+.svg" alt="button">Saiba mais
                 </a>
@@ -186,7 +187,60 @@
                 </div>
             </div>
         </section>
+        <section class="planos" id="planos">
+            <div class="calc-wrapper">
+                <div class="calc-card">
+                    <div class="calc-header">
+                        <h2>Simule o valor do <span class="accent">seu plano</span></h2>
+                        <p>Arraste o controle para simular o número de colaboradores e veja o valor estimado do plano em
+                            tempo
+                            real.</p>
+                    </div>
+
+                    <div class="tabs" role="tablist" aria-label="Selecionar plano">
+                        <button class="tab active" data-plan="rosa" role="tab" aria-selected="true">ROSA</button>
+                        <button class="tab" data-plan="violeta" role="tab" aria-selected="false">VIOLETA</button>
+                    </div>
+
+                    <div class="calc-body">
+                        <div class="calc-controls">
+                            <div class="slider-section">
+                                <div class="slider-label-row">
+                                    <span class="label">Nº de colaboradores</span>
+                                    <span class="value" id="headcountLabel">120 colaboradores</span>
+                                </div>
+                                <div class="slider-track-wrap">
+                                    <div class="bubble" id="bubble">120</div>
+                                    <input type="range" min="1" max="500" value="120" step="1" id="headcountSlider"
+                                        class="slider-input" aria-label="Número de colaboradores" />
+                                </div>
+                                <div class="minmax-row"><span>1</span><span>500+</span></div>
+                            </div>
+
+                            <div class="toggle-row">
+                                <div class="toggle-track" role="tablist" aria-label="Ciclo de cobrança">
+                                    <button class="toggle-option active" data-period="mensal" role="tab"
+                                        aria-selected="true">Mensal</button>
+                                    <button class="toggle-option" data-period="anual" role="tab"
+                                        aria-selected="false">Anual</button>
+                                </div>
+                                <span class="discount-badge">Anual: 15% de desconto</span>
+                            </div>
+                        </div>
+
+                        <div class="result-panel">
+                            <span class="result-label" id="resultLabel">Valor estimado (mensal)</span>
+                            <span class="result-value" id="resultValue">R$ 1.800 /mês</span>
+                            <button class="cta-button">
+                                <span class="cta-icon"><span class="icon-plus"></span></span>
+                                <span class="label">Falar com um especialista</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
+    </section>
     <footer>
 
     </footer>
@@ -195,6 +249,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/calculadora.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
 
 </body>
