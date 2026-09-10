@@ -198,6 +198,7 @@
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    border: none;
 }
 #agendar-btn-first-section, #agendar-btn-third-section{
     width: 300px;
