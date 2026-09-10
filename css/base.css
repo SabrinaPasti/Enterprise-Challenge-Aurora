@@ -21,6 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 180px;
+    align-items: center;
+    justify-content: center;
 }
 h2 {
     font-family: "Nunito Sans", sans-serif;
