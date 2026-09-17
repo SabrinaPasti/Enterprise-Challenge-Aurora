@@ -1,8 +1,28 @@
 /*Efeito de visibilidade para rolagem*/
-.efeito-txt-section, 
-.efeito-img-section, .efeito-plan-cards, 
+.efeito-txt-section,
+.efeito-img-section, .efeito-plan-cards,
 .efeito-box-right1, .efeito-box-left1,
 .efeito-box-right2, .efeito-box-left2,
 .efeito-box-right3, .efeito-box-left3{
     visibility: hidden;
+}
+
+/*Fade in genérico, usado onde não há efeito de origem lateral/vertical*/
+.fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity .6s ease, transform .6s ease;
+}
+
+.fade-in.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fade-in {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }

@@ -11,11 +11,30 @@ body {
     display: flex;
     flex-direction: column;
     gap: 250px;
+    background: #fff;
+    padding: 0;
+}
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-offset, 120px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 .container {
-    width: 1242px;
+    width: 100%;
+    max-width: 1242px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1242px;
     margin: 0 auto;
 }
 .main-content{
@@ -27,7 +46,7 @@ body {
 }
 h2 {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 48px;
+    font-size: clamp(26px, 5vw, 48px);
     line-height: 110%;
     color: #000;
     font-weight: 600;
@@ -52,13 +71,13 @@ h4 {
 
 h3 {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 32px;
+    font-size: clamp(20px, 4vw, 32px);
     line-height: 124%;
     color: #000;
     font-weight: 600;
 }
 
-a{
+a {
     outline: none;
 }
 

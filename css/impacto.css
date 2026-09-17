@@ -113,7 +113,6 @@
     max-width: max-content;
 }
 
-
 .card-carrossel {
     background-repeat: no-repeat;
     border-radius: 32px;
@@ -341,6 +340,5 @@
     .card-carrossel {
         width: 260px;
         height: 320px;
-        background-color: aqua;
     }
 }
