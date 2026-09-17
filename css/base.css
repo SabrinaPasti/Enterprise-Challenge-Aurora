@@ -12,6 +12,17 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-offset, 120px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 1242px;
