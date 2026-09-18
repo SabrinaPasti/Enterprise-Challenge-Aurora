@@ -125,18 +125,12 @@
         margin-right: 22px;
     }
 
-    /* header {
-        padding: 46px 0px;
-        position: fixed;
-        z-index: 999999;
-        width: 100%;
-        margin: 0 auto;
-    } */
+
 
     header {
         padding: 46px 0px;
         position: fixed;
-        z-index: 999999;
+        z-index: 10;
         width: 100%;
         margin: 0 auto;
         transition: background 0.3s ease, padding 0.3s ease;
@@ -220,4 +214,33 @@
         header .container nav a {
             font-size: 13px;
         }
+
+        .main-content .aurora .container{
+            display: flex;
+            flex-direction: column;
+            padding-left: 2%;
+            padding-top: 15%;
+            width: 90%;
+        }
+        .main-content .aurora .container h2{
+            font-size: 2.5rem;
+        }
+        .main-content .aurora .container p{
+            font-size: 1rem;
+        }
+        .main-content .aurora .container a{
+            align-self: self-start;
+        }
+    }
+    @media (max-width: 1400px) {
+        .main-content .aurora .container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: self-start;
+            padding-left: 5%;
+        }
+
+
+
     }

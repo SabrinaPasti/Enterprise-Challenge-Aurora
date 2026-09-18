@@ -411,9 +411,10 @@
 /* Mobile */
 @media (max-width: 640px) {
     .calc-card {
-        padding: 24px 18px;
+        padding: 24px 10px;
         border-radius: 20px;
         gap: 22px;
+
     }
 
     .tabs {

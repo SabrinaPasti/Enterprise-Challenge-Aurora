@@ -341,5 +341,6 @@
     .card-carrossel {
         width: 260px;
         height: 320px;
+        background-color: aqua;
     }
 }

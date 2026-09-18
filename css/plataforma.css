@@ -173,7 +173,9 @@
     line-height: 120%;
     width: 90%;
 }
-
+.cont-text{
+    display: none;
+}
 /*Tag de span*/
 .span-roxo{
     color: #8602BA;

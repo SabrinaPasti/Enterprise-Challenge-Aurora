@@ -19,6 +19,12 @@
         width: 100%;
         gap: 20px;
     }
+    .cont-text{
+        display:initial;
+    }
+    .text-hidden{
+        display: none;
+    }
     .topic-section-platform{
         width: 150px;
         height: 30px;
@@ -58,6 +64,16 @@
         width: 270px;
         height: 30px;
         border-radius: 10px;
+    }
+    #topics-search-bar-section{
+        gap: 5px;
+    }
+    .topics-search-bar{
+        gap: 5px;
+    }
+    #topic-destaq-search-bar{
+        padding-left: 1%;
+        width: 97px;
     }
     #topic-destaq-search-bar, .topics-search-bar{
         font-size: 0.7rem;

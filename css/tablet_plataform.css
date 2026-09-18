@@ -14,6 +14,12 @@
     }
 
     /*Box de texto da 1º seção plataforma tablet*/
+    .cont-text{
+        display:initial;
+    }
+    .text-hidden{
+        display: none;
+    }
     .text-section-platform{
         width: 100%;
         gap: 40px;
@@ -59,11 +65,14 @@
         height: 40px;
         border-radius: 13px;
     }
+    #topics-search-bar-section{
+        justify-content: center;
+    }
     #topic-destaq-search-bar, .topics-search-bar{
         font-size: 0.9rem;
     }
     #line-search-bar{
-        width: 122px;
+        width: 140px;
     }
     #perfil-ex-platform{
         height: 65%;

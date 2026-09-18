@@ -258,3 +258,25 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width:1200px) {
+    #ferramentas-section-topics{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .box-section{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #more-sobre-empresa{
+        margin-top: 0;
+    }
+    #info-empresa-box{
+        gap: 5%;
+    }
+}
